@@ -13,3 +13,15 @@ i. The output of MovieRank mapreduce code is the list of all movies sorted by th
 ii. The output of the MovieRating mapreduce code is the list of all movies along with their average ratings, sorting by the highest average rating. Movies with number of ratings fewer than 10 are ignored in this as they can skew the results.
 
 The above two processes involved parsing, filtering, joining, aggregating and sorting operations, and would qualify as a way of benchmarking. 
+
+Steps to execute it -
+
+1. Create a maven project in IntelliJ
+2. Enter groupID, ArtifactID, project name
+3. Use the pom file provided above
+4. Do import changes
+5. Create a MovieRank class for Mapreduce
+6. Create a MovieRating class for Mapreduce
+7. Add the samples files to the resources folder.
+8. Edit run configuration accordingly and mention the input and output paths
+9. Run the configuration
